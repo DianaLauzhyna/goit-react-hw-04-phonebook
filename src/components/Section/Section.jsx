@@ -9,6 +9,7 @@ export const Section = ({ header, children }) => (
   </>
 );
 
+
 Section.propTypes = {
   header: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
