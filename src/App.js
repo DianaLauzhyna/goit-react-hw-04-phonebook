@@ -68,7 +68,7 @@ export default function App() {
       <PageHeader>Phonebook</PageHeader>
       <ContactForm onSubmit={addContact} />
       <Section header="Contacts">
-        <Filter value={filter} onChange={e => handleFilterInputChange(e)}>
+        <Filter value={filter} onChange={handleFilterInputChange}>
           Find contacts by name
         </Filter>
         <ContactList
