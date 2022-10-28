@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { nanoid } from 'nanoid';
 
 import { Section, ContactForm, Filter, ContactList } from './components';
-import { saveToStorage, loadFromStorage } from './utils';
+import { saveToStorage, loadFromStorage } from './utils/localStorage';
 
 import { Wrapper, PageHeader } from './App.styled';
 
